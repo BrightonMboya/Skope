@@ -6,7 +6,7 @@ import img6 from "../../img/img6.png";
 
 const ProductCatalog = () => {
   return (
-    <div>
+    <div className="mt-20">
       <ProductCategory
         number={1}
         img={img4}
