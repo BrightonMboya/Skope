@@ -4,8 +4,8 @@ import HeroImages from "./HeroImages";
 const HeroSection = () => {
   return (
     <React.Fragment>
-      <div className="mt-5 px-5 md:grid grid-cols-2">
-        <div>
+      <div className="mt-5 px-5 md:flex flex-row-reverse items-center justify-center gap-[10vh]">
+        <div className="mb-[10vh]">
           <h3 className="text-xl font-medium md:text-4xl">
             Reducing Fashion Waste through <br />
             <span className="text-skope-blue text-5xl font-semibold">
@@ -18,7 +18,7 @@ const HeroSection = () => {
           </h2>
         </div>
 
-        <HeroImages className="order-1" />
+        <HeroImages className="" />
       </div>
     </React.Fragment>
   );
