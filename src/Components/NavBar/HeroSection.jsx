@@ -6,7 +6,7 @@ const HeroSection = () => {
     <React.Fragment>
       <div className="mt-5 px-5 md:flex flex-row-reverse items-center justify-center gap-[10vh]">
         <div className="mb-[10vh]">
-          <h3 className="text-xl font-medium md:text-4xl">
+          <h3 className="text-2xl font-medium md:text-4xl">
             Reducing Fashion Waste through <br />
             <span className="text-skope-blue text-5xl font-semibold">
               Recycling.
