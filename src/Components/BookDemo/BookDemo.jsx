@@ -21,11 +21,12 @@ const BookDemo = () => {
     event.preventDefault();
   };
   return (
-    <>
+    <div className="md:flex items-center justify-center">
+    <div>
       <div className="mt-7 flex justify-center items-center">
         <div className="mt-8">
-          <h3 className="text-lg font-semibold ml-[15vh]">Book a Demo</h3>
-          <p className="text-center ml-5 mr-4">
+          <h3 className="text-lg font-semibold ml-[15vh] md:text-xl">Book a Demo</h3>
+          <p className="text-center ml-5 mr-4 md:text-lg ml-0">
             Get in touch with us to book a demo or for media queries
           </p>
         </div>
@@ -79,7 +80,8 @@ const BookDemo = () => {
 
         
       </div>
-    </>
+      </div>
+    </div>
   );
 };
 
